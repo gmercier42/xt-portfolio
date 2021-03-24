@@ -11,6 +11,10 @@
     }
 }
 
+.home--style-1 {
+    background-color: #9a9389;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -22,11 +26,19 @@
     font-family: "Suisse", sans-serif;
 }
 
+.name--style-1 {
+    color: #e3e4e6;
+}
+
 .contact {
     font-family: "Suisse", sans-serif;
     color: #c7a0ce;
     text-decoration: none;
     display: inline-block;
+}
+
+.contact--style-1 {
+    color: #e3e4e6;
 }
 
 .contact::after {
@@ -36,6 +48,10 @@
     display: block;
     background: #c7a0ce;
     transition: 300ms;
+}
+
+.contact--style-1::after {
+    background: #e3e4e6;
 }
 
 .contact:hover::after {
@@ -50,4 +66,10 @@
     font-size: 8.9vw;
     font-family: "Dilemma", sans-serif;
     white-space: nowrap;
+}
+
+.content--style-1 {
+    font-family: "XTSerif", sans-serif;
+    color: #e3e4e6;
+    font-size: 8vw;
 }
