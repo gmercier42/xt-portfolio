@@ -8,9 +8,9 @@
       <a
         class="contact"
         :class="{ 'contact--style-1': style == 1 }"
-        href="mailto:{{contact_email}}"
-        >Contact</a
-      >
+        href="mailto:contact@xaviertrudeau.com"
+        >Contact
+      </a>
     </div>
 
     <div class="content" :class="{ 'content--style-1': style == 1 }">
