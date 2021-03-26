@@ -12,9 +12,11 @@ export default class Home extends Vue {
   }
 
   updateReloadCounter(): void {
-    if (localStorage.reloadCounter) localStorage.reloadCounter++;
-    else localStorage.reloadCounter = 0;
+    if (!localStorage.reloadCounter) {
+      localStorage.reloadCounter = 0;
+    }
 
-    localStorage.reloadCounter = localStorage.reloadCounter % NUMBER_OF_STYLES;
+    localStorage.reloadCounter++;
+    localStorage.reloadCounter %= NUMBER_OF_STYLES;
   }
 }
