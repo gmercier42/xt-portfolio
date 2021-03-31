@@ -66,6 +66,10 @@
     font-size: 8.9vw;
     font-family: "Dilemma", sans-serif;
     white-space: nowrap;
+
+    @media screen and (max-width: 480px) {
+        margin-bottom: 15vh;
+    }
 }
 
 .content--style-1 {
